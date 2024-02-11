@@ -1,0 +1,19 @@
+{
+    "manifest_version": 3,
+    "name": "Classic Clock",
+    "version": "1.0",
+    "description": "A new tab Chrome extension with a classic clock and customizable background.",
+    "icons": {
+      "128": "images/icon.png"
+    },
+    "action": {
+      "default_popup": "index.html",
+      "default_icon": "images/icon.png"
+    },
+    "chrome_url_overrides": {
+      "newtab": "index.html"
+    },
+    "permissions": [
+      "storage"
+    ]
+  }
